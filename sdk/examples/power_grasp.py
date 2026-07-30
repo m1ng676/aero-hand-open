@@ -55,7 +55,7 @@ class KeyboardController:
             pass
 
 def main():
-    hand = AeroHand()
+    hand = AeroHand("COM3")
 
     open_pose = [100.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     grip_pose = [100.0, 55.0, 30.0, 60.0, 60.0, 60.0, 60.0]
