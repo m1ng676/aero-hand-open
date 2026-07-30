@@ -16,7 +16,7 @@
 from aero_open_sdk.aero_hand import AeroHand
 
 if __name__ == "__main__":
-    hand = AeroHand()
+    hand = AeroHand("COM3")
 
     ## Perform homing
     ## NOTE: While performing homing, robot will not respond to any other commands.
